@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE xml>
+<!--
+
+   	Default WebDAV device
+
+  	@package	sync*gw
+ 	@subpackage	Core
+   	@copyright	(c) 2008 - 2023 Florian Daeumling, Germany. All right reserved
+  	@license 	LGPL-3.0-or-later
+
+-->
+<Data xmlns="https://github.com/syncgw/syncgw/schema/syncgw.xsd"
+		xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" 
+		xsi:schemaLocation="https://github.com/syncgw/syncgw/schema/ https://github.com/syncgw/syncgw/schema/syncgw.xsd">
+ 
+ <DeviceIP/>
+ 
+ <DataStore>
+  <HandlerID>DataStore::CONTACT</HandlerID>
+  <MIME>
+   <Name>text/vcard</Name>
+   <Version>4.0</Version>
+  </MIME>
+  <MIME>
+   <Name>text/vcard</Name>
+   <Version>3.0</Version>
+  </MIME>
+  <MIME>
+   <Name>text/x-vcard</Name>
+   <Version>3.0</Version>
+  </MIME>
+  <MIME>
+   <Name>text/x-vcard</Name>
+   <Version>2.1</Version>
+  </MIME>
+ </DataStore>
+
+ <DataStore>
+  <HandlerID>DataStore::CALENDAR</HandlerID>
+  <MIME>
+   <Name>text/calendar</Name>
+   <Version>2.0</Version>
+  </MIME>
+  <MIME>
+   <Name>text/x-vcalendar</Name>
+   <Version>2.0</Version>
+  </MIME>
+  <MIME>
+   <Name>text/x-vcalendar</Name>
+   <Version>1.0</Version>
+  </MIME>
+ </DataStore>
+
+ <DataStore>
+  <HandlerID>DataStore::TASK</HandlerID>
+  <MIME>
+   <Name>text/calendar</Name>
+   <Version>2.0</Version>
+  </MIME>
+  <MIME>
+   <Name>text/x-vcalendar</Name>
+   <Version>2.0</Version>
+  </MIME>
+  <MIME>
+   <Name>text/x-vcalendar</Name>
+   <Version>1.0</Version>
+  </MIME>
+ </DataStore>
+
+ <DataStore>
+  <HandlerID>DataStore::NOTE</HandlerID>
+  <MIME>
+   <Name>text/x-vnote</Name>
+   <Version>1.1</Version>
+  </MIME>
+ </DataStore>
+ 
+</Data>
