@@ -6,7 +6,7 @@ declare(strict_types=1);
  *
  *	@package	sync*gw
  *	@subpackage	SabreDAV support
- *	@copyright	(c) 2008 - 2024 Florian Daeumling, Germany. All right reserved
+ *	@copyright	(c) 2008 - 2025 Florian Daeumling, Germany. All right reserved
  * 	@license 	LGPL-3.0-or-later
  * 	@license 	LGPL-3.0-or-later
  */
@@ -565,7 +565,7 @@ class davContact extends \Sabre\CardDAV\Backend\AbstractBackend implements \Sabr
      * @param int $limit
      * @return array
      */
-	public function getChangesForAddressBook($addressBookId, $syncToken, $syncLevel, $limit = null) {
+	public function getChangesForAddressBook(string $addressBookId, string $syncToken, int $syncLevel, ?int $limit = null) {
 
 		if (is_array($addressBookId))
     		list($addressBookId, ) = $addressBookId;
