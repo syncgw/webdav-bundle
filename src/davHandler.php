@@ -10,10 +10,6 @@ declare(strict_types=1);
  * 	@license 	LGPL-3.0-or-later
  */
 
-/**
- * For patches search "syncGW" in directory "syncgw/Sabre"
- */
-
 namespace syncgw\webdav;
 
 use syncgw\lib\Config;
