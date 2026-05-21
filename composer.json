@@ -21,7 +21,9 @@
 	],
 	"require" : {
 		"php" : ">=8.1",
-		"sabre/dav" : "~4.7.0"
+		"sabre/dav" : "~4.7.0",
+		"sabre/uri" : "~2.3.4",
+		"sabre/xml" : "^2.2.11"
 	},
 	"autoload" : {
 		"psr-4" : {
